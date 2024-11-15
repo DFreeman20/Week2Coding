@@ -1,0 +1,119 @@
+body{
+    /* changed the background color to a light gray */
+    background-color: rgb(228, 228, 228);
+    /* changed the font style a few times until I found one I like */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+/* elements */
+h1 {
+    text-align: center;
+    color: red;
+    margin-bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(237, 10, 10);
+}
+
+ul {
+    text-align: left;
+}
+
+/*creates a menu background across the width of the screen*/
+.menudiv {
+    width: 100%;
+    background-color: red;
+    overflow: auto;
+}
+
+/*aligns the menu links with equal spacing*/
+.menudiv a {
+    float: left;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    width: 33%;
+    text-decoration: underline;
+}
+
+/*Changes the background color of the linked page that is currently displaying*/
+.menudiv a.active {
+    background-color: black;
+}
+
+/*changes the background color of a menu link when hovered over with the cursor*/
+.menudiv a:hover {
+    background-color: #000;
+}
+
+
+/*makes images smaller in my list and gives them rounded corners*/
+.imglist img{
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+/*this makes my unordered list look nicer and leaves space around the content*/
+#frogtypes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*centers list items*/
+#frogtypes li{
+    text-align: center;
+}
+
+#frogtypes p{
+    color: green;
+}
+
+/*whycool*/
+
+/*changed the backkground color and added a border to the table, collapsed border so there was not a double line, added space between table 
+and nav bar*/
+table{
+    background-color: red;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/*made borders around the rows and columns*/
+th, td {
+    border: 2px solid black;
+}
+
+/*This centered my table on the page*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*contact us*/
+
+/*This styled my form to be centered, flex display the columns so they are on top of another, added space between the nav bar and form
+and made the max width of input boxes 25% of the viewing width*/
+form{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 25vw;
+}
+
+/*this puts space between my form input boxes*/
+form input {
+    margin-bottom: 10px;
+}
+
+/*made the submit button larger with larger text*/
+form button {
+    padding: 5px;
+    font-size: 30px;
+}
